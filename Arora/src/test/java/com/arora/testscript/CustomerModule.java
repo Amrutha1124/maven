@@ -9,4 +9,8 @@ public class CustomerModule {
 public void createCustomer()  {
 	Reporter.log("createCustomer",true);
 }
+	@Test
+public void deleteCustomer()  {
+	Reporter.log("deleteCustomer",true);
+}
 }
