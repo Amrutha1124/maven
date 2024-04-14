@@ -13,4 +13,8 @@ public void createCustomer()  {
 public void deleteCustomer()  {
 	Reporter.log("deleteCustomer",true);
 }
+	@Test
+	public void modifyCustomer()  {
+		Reporter.log("modifyCustomer",true);
+	}
 }
